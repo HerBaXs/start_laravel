@@ -10,6 +10,12 @@
 </head>
 <body>
     
-        
+        <h1>Ana Sehife</h1>
 
+        @foreach ($get as $item) {
+            echo "Hello WOrld";
+        }
+
+        @endforeach
 </body>
+</html>
