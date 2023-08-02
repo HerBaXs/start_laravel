@@ -27,5 +27,7 @@ Route::group(['prefix' => '/telebe'], function () {
     Route::get('{ad}/{yas}', function ($ad, $yas) {
         return $yas;
     });
+
+
 });
 
