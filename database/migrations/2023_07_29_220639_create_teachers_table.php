@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('teachers', function (Blueprint $table) {
             $table->id();
+            $table->string('Muellim', 20);
+            $table->longText('haqqinda')->nullable();
+            $table->string('tel');
+            $table->smallInteger('yas');
+            $table->enum('status', ['Isleyir','Islemir'])->default('Islemir') ;
             $table->timestamps();
         });
     }

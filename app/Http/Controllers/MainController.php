@@ -9,9 +9,9 @@ class MainController extends Controller
   
     public function index(){
 
-
-        
-        return "Hello World";
+        return "Cabir bu gun bize geldi baykl icdi hec dexlisi var??" . "<br>" . "He heri iwdi.";
+        "<br>";
+        return "He heri iwdi";
 
     }
 

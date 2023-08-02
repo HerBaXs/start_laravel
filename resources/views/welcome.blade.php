@@ -9,13 +9,9 @@
     <script src='main.js'></script>
 </head>
 <body>
-    
+
         <h1>Ana Sehife</h1>
+        <pre></pre>
 
-        @foreach ($get as $item) {
-            echo "Hello WOrld";
-        }
-
-        @endforeach
 </body>
 </html>
